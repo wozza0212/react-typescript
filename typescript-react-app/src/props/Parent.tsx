@@ -3,7 +3,9 @@ import {ChildAsFC} from './Child';
 const Parent = () => {
     return (
         <div>
-            <ChildAsFC color={'blue'} onClick={() => console.log('Clicked')} />
+            <ChildAsFC color={'blue'} onClick={() => console.log('Clicked')}>
+                Hello World
+            </ChildAsFC>
         </div>
     )
 }
